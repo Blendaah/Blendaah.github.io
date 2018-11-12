@@ -5,6 +5,7 @@ body {
 
 header {
   background-color: #245F64;
+  padding: 35px;
 }
 
 nav {
@@ -13,12 +14,17 @@ nav {
 
 section {
   background-color: #70A6AA;
+  padding-bottom: 100px;
 }
-
 article {
   background-color: #438D93;
+  padding: 20px 10px;
+  margin-right: 10px;
+  height: 500px;
+  border-radius:0px 0px 100px;
 }
 
 footer {
-  background-color: #438D93;
+  background-color: #17565B;
+  padding: 75px 25px;
 }
