@@ -25,6 +25,11 @@ nav button {
   padding: 0px 35px;
 }
 
+nav button:hover {
+  background-color: #004147;
+  transition: 0.3s;
+}
+
 section {
   background-color: #70A6AA;
   padding-bottom: 100px;
