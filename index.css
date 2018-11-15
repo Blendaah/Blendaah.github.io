@@ -46,12 +46,14 @@ section {
   background-color: #70A6AA;
   padding-bottom: 100px;
 }
+
 article {
   background-color: #438D93;
+  font-size: 20px;
   padding: 20px 10px;
   margin-right: 10px;
   height: 500px;
-  border-radius:0px 0px 100px;
+  border-radius:0px 0px 500px;
 }
 
 footer {
