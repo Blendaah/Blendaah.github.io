@@ -30,11 +30,11 @@ nav button {
 }
 
 nav:hover {
-  height: 75px;
+  height: 65px;
 }
 
 nav:hover button {
-  height: 75px;
+  height: 65px;
 }
 
 nav button:hover {
