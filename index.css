@@ -14,6 +14,7 @@ header {
 
 nav {
   background-color: #00484F;
+  height: 60px;
 }
 
 nav button {
@@ -23,6 +24,16 @@ nav button {
   color: white;
   font-size: 25px;
   padding: 0px 35px;
+}
+
+nav:hover {
+  height: 70px;
+  transition: .3s;
+}
+
+nav:hover button {
+  height: 70px;
+  transition: .3s;
 }
 
 nav button:hover {
