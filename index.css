@@ -10,11 +10,13 @@ header {
   padding: 35px;
   font-size: 69px;
   font-weight: bold;
+  transition: 1s;
 }
 
 nav {
   background-color: #00484F;
   height: 60px;
+  transition: .3s;
 }
 
 nav button {
@@ -24,21 +26,19 @@ nav button {
   color: white;
   font-size: 25px;
   padding: 0px 35px;
+  transition: .3s;
 }
 
 nav:hover {
-  height: 70px;
-  transition: .3s;
+  height: 75px;
 }
 
 nav:hover button {
-  height: 70px;
-  transition: .3s;
+  height: 75px;
 }
 
 nav button:hover {
   background-color: #004147;
-  transition: 0.3s;
 }
 
 section {
