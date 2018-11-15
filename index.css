@@ -30,6 +30,11 @@ nav button {
   transition: .3s;
 }
 
+nav button:disabled {
+  background-color: #00535b;
+  color: gray;
+}
+
 nav:hover {
   height: 65px;
 }
@@ -38,9 +43,10 @@ nav:hover button {
   height: 65px;
 }
 
-nav button:hover {
+nav button:hover:enabled {
   background-color: #004147;
 }
+
 
 section {
   background-color: #70A6AA;
@@ -49,8 +55,9 @@ section {
 
 article {
   background-color: #438D93;
-  font-size: 20px;
-  padding: 20px 10px;
+  padding: 40px 15px;
+  font-size: 30px;
+  padding-right: 400px;
   margin-right: 10px;
   height: 500px;
   border-radius:0px 0px 500px;
