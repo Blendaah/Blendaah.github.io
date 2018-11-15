@@ -1,15 +1,25 @@
 body {
   margin: 0px;
   padding: 0px;
+  color: white;
+  font-size: 19px;
 }
 
 header {
   background-color: #245F64;
   padding: 35px;
+  font-size: 69px;
+  font-weight: bold;
 }
 
 nav {
   background-color: #00484F;
+}
+
+nav button {
+  border-style: none;
+  background-color: #00353A;
+  height: 100px;
 }
 
 section {
