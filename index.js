@@ -3,5 +3,5 @@ header = document.getElementById("header");
 header.addEventListener("click", onClick);
 
 function onClick() {
-  header.style.height = "100px";
+  header.innerHTML = "I like turtles!"
 }

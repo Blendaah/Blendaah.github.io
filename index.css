@@ -10,13 +10,14 @@ header {
   padding: 35px;
   font-size: 69px;
   font-weight: bold;
-  transition: 1s;
 }
 
 nav {
   background-color: #00484F;
   height: 60px;
   transition: .3s;
+  position: sticky;
+  top: 0;
 }
 
 nav button {
