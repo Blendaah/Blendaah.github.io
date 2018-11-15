@@ -19,7 +19,10 @@ nav {
 nav button {
   border-style: none;
   background-color: #00353A;
-  height: 100px;
+  height: 60px;
+  color: white;
+  font-size: 25px;
+  padding: 0px 35px;
 }
 
 section {
