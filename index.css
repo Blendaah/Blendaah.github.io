@@ -3,6 +3,7 @@ body {
   padding: 0px;
   color: white;
   font-size: 19px;
+  font-family: arial;
 }
 
 header {
@@ -64,6 +65,9 @@ article {
 }
 
 footer {
+  border-top: solid;
+  border-width: 5px;
+  border-color: #134549;
   background-color: #17565B;
   padding: 75px 25px;
 }
