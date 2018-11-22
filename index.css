@@ -15,39 +15,48 @@ header {
 
 nav {
   background-color: #00484F;
-  height: 60px;
   transition: .3s;
   position: sticky;
   top: 0;
 }
 
-nav button {
-  border-style: none;
-  background-color: #00353A;
-  height: 60px;
+div {
+  border-top-left-radius: 100px;
+  background: #48979e;
+  width: 100px;
+  position: fixed;
+  padding: 15px 0px;
+  padding-left: 50px;
+  right: 0px;
+  bottom: 0px;
+}
+
+div a {
   color: white;
-  font-size: 25px;
-  padding: 0px 35px;
-  transition: .3s;
+  text-decoration: none;
 }
 
-nav button:disabled {
-  background-color: #00535b;
-  color: gray;
+ul {
+  margin: 0px;
 }
 
-nav:hover {
-  height: 65px;
+ul li {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00353A;
+  transition: 0.2s;
 }
 
-nav:hover button {
-  height: 65px;
+ul li a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
 }
 
-nav button:hover:enabled {
+
+ul li:hover {
   background-color: #004147;
 }
-
 
 section {
   background-color: #70A6AA;
