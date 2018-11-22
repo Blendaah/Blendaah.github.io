@@ -18,7 +18,7 @@ nav {
   transition: .3s;
   position: sticky;
   top: 0;
-  box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.3);
+  /*box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.3);*/
 }
 
 div {
@@ -30,7 +30,13 @@ div {
   padding-left: 50px;
   right: 0px;
   bottom: 0px;
-  box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.3);
+  opacity: 0.5;
+  transition: 0.2s;
+  /*box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.3);*/
+}
+
+div:hover {
+  opacity: 0.8;
 }
 
 div a {
@@ -74,7 +80,7 @@ article {
   margin-right: 10px;
   height: 500px;
   border-radius:0px 0px 500px;
-  box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.3);
+  /*box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.3);*/
 }
 
 footer {
