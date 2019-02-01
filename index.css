@@ -1,6 +1,9 @@
-body {
+* {
   margin: 0px;
   padding: 0px;
+}
+
+body {
   color: white;
   font-size: 19px;
   font-family: arial;
@@ -9,8 +12,12 @@ body {
 header {
   background-color: #245F64;
   padding: 35px;
-  font-size: 69px;
+  font-size: 50px;
   font-weight: bold;
+}
+
+iframe {
+  margin: 30px;
 }
 
 nav {
@@ -55,16 +62,6 @@ ul {
   margin: 0px;
 }
 
-article ul li {
-  display: grid;
-  padding: 30px;
-  border-style: solid;
-  border-width: 10px;
-  border-color: #48979e;
-  background: #38878e;
-  margin: 0px;
-}
-
 nav ul li {
   display: inline-block;
   padding: 10px 20px;
@@ -76,6 +73,18 @@ ul li a {
   color: white;
   font-size: 30px;
   text-decoration: none;
+}
+
+.projects-text {
+  padding: 35px 25px;
+  font-size: 30px;
+}
+
+.project {
+  border-radius: 10px;
+  margin: 35px 25px;
+  padding: 25px 20px;
+  border-bottom-right-radius: 500px;
 }
 
 
@@ -109,5 +118,5 @@ footer {
   border-width: 5px;
   border-color: #134549;
   background-color: #17565B;
-  padding: 75px 25px;
+  padding: 35px 25px;
 }
